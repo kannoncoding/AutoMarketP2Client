@@ -9,6 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="10.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\AutoMarket.Servidor\AutoMarket.Entidades\AutoMarket.Entidades.csproj" />
     <ProjectReference Include="..\AutoMarket.Cliente.Comunicacion\AutoMarket.Cliente.Comunicacion.csproj" />
     <ProjectReference Include="..\AutoMarket.Cliente.Logica\AutoMarket.Cliente.Logica.csproj" />
