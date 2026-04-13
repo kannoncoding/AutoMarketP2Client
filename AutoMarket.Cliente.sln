@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36518.9 d17.14
+VisualStudioVersion = 17.14.36518.9
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMarket.Entidades", "AutoMarket.Entidades\AutoMarket.Entidades.csproj", "{4ACC157B-FD6C-4552-A6FD-5F70A490E266}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMarket.Cliente.Comunicacion", "AutoMarket.Cliente.Comunicacion\AutoMarket.Cliente.Comunicacion.csproj", "{C6A83FD9-F3D4-4F15-8B34-5F2D5FF40CE9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMarket.Cliente.Logica", "AutoMarket.Cliente.Logica\AutoMarket.Cliente.Logica.csproj", "{AA8C250E-A6C8-490E-A7CC-9E4B9D80925C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMarket.Cliente.Presentacion", "AutoMarket.Cliente.Presentacion\AutoMarket.Cliente.Presentacion.csproj", "{EB1571E8-B7C6-49CA-9256-D1572404CA0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMarket.Entidades", "..\AutoMarket.Servidor\AutoMarket.Entidades\AutoMarket.Entidades.csproj", "{B7752D96-409A-3E52-74CF-F0F6188CE18F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4ACC157B-FD6C-4552-A6FD-5F70A490E266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4ACC157B-FD6C-4552-A6FD-5F70A490E266}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4ACC157B-FD6C-4552-A6FD-5F70A490E266}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4ACC157B-FD6C-4552-A6FD-5F70A490E266}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C6A83FD9-F3D4-4F15-8B34-5F2D5FF40CE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C6A83FD9-F3D4-4F15-8B34-5F2D5FF40CE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6A83FD9-F3D4-4F15-8B34-5F2D5FF40CE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{EB1571E8-B7C6-49CA-9256-D1572404CA0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB1571E8-B7C6-49CA-9256-D1572404CA0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB1571E8-B7C6-49CA-9256-D1572404CA0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7752D96-409A-3E52-74CF-F0F6188CE18F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7752D96-409A-3E52-74CF-F0F6188CE18F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7752D96-409A-3E52-74CF-F0F6188CE18F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7752D96-409A-3E52-74CF-F0F6188CE18F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

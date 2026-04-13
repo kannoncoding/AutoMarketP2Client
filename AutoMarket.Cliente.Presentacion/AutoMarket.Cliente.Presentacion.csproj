@@ -9,9 +9,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\AutoMarket.Servidor\AutoMarket.Entidades\AutoMarket.Entidades.csproj" />
     <ProjectReference Include="..\AutoMarket.Cliente.Comunicacion\AutoMarket.Cliente.Comunicacion.csproj" />
     <ProjectReference Include="..\AutoMarket.Cliente.Logica\AutoMarket.Cliente.Logica.csproj" />
-    <ProjectReference Include="..\AutoMarket.Entidades\AutoMarket.Entidades.csproj" />
   </ItemGroup>
 
 </Project>
